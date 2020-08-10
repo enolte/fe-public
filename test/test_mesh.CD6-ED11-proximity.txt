@@ -1,0 +1,1018 @@
+test_mesh.cpp, 127, main
+test_mesh.cpp, 139, main, 6, 11 =======================================================
+test_mesh.cpp, 41, execute, `CD` = 6
+test_mesh.cpp, 42, execute, `ED` = 11
+test_mesh.cpp, 46, execute, Loading cube.
+test_mesh.cpp, 48, execute, `points.size()` = 64
+test_mesh.cpp, 73, execute, Constructing mesh.
+../mesh/mesh_constructor.h, 36, mesh_constructor, `m_strategy.name` = proximity
+../mesh/mesh_constructor.h, 86, construct
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 0
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 0
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 1
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 2
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 3
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 3
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 4
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 5
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 5
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 6
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 6
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 7
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 8
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 9
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 9
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 10
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 10
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 11
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 12
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 12
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 13
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 14
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 15
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 15
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 16
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 17
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 17
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 18
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 18
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 19
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 20
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 20
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 21
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 22
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 23
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 23
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 24
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 24
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 25
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 26
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 27
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 27
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 28
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 29
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 29
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 30
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 30
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 31
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 32
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 33
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 33
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 34
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 34
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 35
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 36
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 36
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 37
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 38
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 39
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 39
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 40
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 40
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 41
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 42
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 43
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 43
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 44
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 45
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 45
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 46
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 46
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 47
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 48
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 48
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 49
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 50
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 51
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 51
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 52
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 53
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 53
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 54
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 54
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 55
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 56
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 57
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 57
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 58
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 58
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 59
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 60
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 60
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 61
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 62
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 63
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/proximity.h, 71, find_vertex_set, `ix_p` = 63
+../mesh/strategy/proximity.h, 72, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/proximity.h, 121, find_vertex_set, `ntried` = 7
+../mesh/strategy/proximity.h, 122, find_vertex_set, `nflat` = 6
+../mesh/strategy/proximity.h, 123, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/proximity.h, 124, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new cell
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 92, construct, Relinking... ...Done.
+test_mesh.cpp, 80, execute, `i` = 0
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    0           16           1           4           32           8           2
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000
+  0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 1
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    3           1           19           35           7           11           2
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  1.000000,   0.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 2
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    5           21           1           4           37           13           7
+  1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   1.000000
+  1.000000,   1.000000,   0.000000,   1.000000,   1.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000
+  0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 3
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    6           22           14           4           38           7           2
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 4
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    9           1           25           41           11           13           8
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000
+  1.000000,   0.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 5
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    10           26           14           8           42           11           2
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 6
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    12           28           14           4           44           13           8
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000,   1.000000
+  0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 7
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    15           14           31           47           11           13           7
+  1.000000,   0.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 8
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    17           25           16           1           49           21           19
+  1.000000,   1.000000,   0.000000,   1.000000,   1.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000
+  0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 9
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    18           26           22           16           50           19           2
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 10
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    20           28           16           4           52           22           21
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000
+  1.000000,   1.000000,   0.000000,   1.000000,   1.000000,   1.000000,   1.000000
+  0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 11
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    23           22           31           55           19           21           7
+  1.000000,   0.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 12
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    24           28           26           16           56           25           8
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 13
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    27           26           31           59           11           25           19
+  1.000000,   0.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 14
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    29           28           31           61           21           25           13
+  1.000000,   0.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 15
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    30           28           31           62           22           26           14
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   0.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 16
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    33           41           37           1           49           35           32
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 17
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    34           42           38           35           50           2           32
+  0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 18
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    36           44           38           4           52           37           32
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 19
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    39           38           47           55           35           37           7
+  1.000000,   0.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 20
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    40           44           42           41           56           32           8
+  0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 21
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    43           42           47           59           11           41           35
+  1.000000,   0.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 22
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    45           44           47           61           37           41           13
+  1.000000,   0.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 23
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    46           44           47           62           38           42           14
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   0.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 24
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    48           52           50           16           56           49           32
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 25
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    51           50           55           59           35           49           19
+  1.000000,   0.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 26
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    53           21           55           61           49           52           37
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  1.000000,   0.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 27
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    54           22           55           62           50           52           38
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  1.000000,   0.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 28
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    57           56           59           61           41           49           25
+  1.000000,   0.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 29
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    58           26           59           62           50           56           42
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  1.000000,   0.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 30
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    60           28           61           62           52           56           44
+  0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   1.000000,   0.000000,   0.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  1.000000,   0.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 80, execute, `i` = 31
+test_mesh.cpp, 81, execute, `m.cells[i]` =
+ matrix =
+    63           62           61           31           55           59           47
+  1.000000,   0.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000
+  1.000000,   1.000000,   0.000000,   1.000000,   1.000000,   1.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000
+  1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   1.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   0.000000,   1.000000,   1.000000,   1.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000,   0.000000
+ neighbor cell index =
+
+
+test_mesh.cpp, 84, execute, `m.cells.size()` = 32
+test_mesh.cpp, 86, execute, Interrogating mesh: unconnected points.
+test_mesh.cpp, 88, execute, `nunconnected_points` = 0
+test_mesh.cpp, 91, execute, Interrogating mesh: overlapping cells.
+test_mesh.cpp, 93, execute, `noverlapping_cells` = 0
+test_mesh.cpp, 96, execute, Interrogating mesh: partition points.
+test_mesh.cpp, 98, execute, `npartition_points` = 0
+test_mesh.cpp, 101, execute, Interrogating mesh: isolated cells.
+test_mesh.cpp, 103, execute, `nisolated_cells` = 0
+test_mesh.cpp, 106, execute, Interrogating mesh: degenerate cells.
+test_mesh.cpp, 108, execute, `ndegenerate_cells` = 0
+
+real    0m0.112s
+user    0m0.077s
+sys     0m0.000s
+
