@@ -1,0 +1,137 @@
+test_mesh.cpp, 123, main
+test_mesh.cpp, 127, main, 3, 3 =======================================================
+test_mesh.cpp, 37, execute, `CD` = 3
+test_mesh.cpp, 38, execute, `ED` = 3
+test_mesh.cpp, 42, execute, Loading cube.
+test_mesh.cpp, 44, execute, `points.size()` = 8
+test_mesh.cpp, 69, execute, Constructing mesh.
+../mesh/mesh_constructor.h, 36, mesh_constructor, `m_strategy.name` = simple
+../mesh/mesh_constructor.h, 86, construct
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 0
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/simple.h, 77, find_vertex_set, `ix_p` = 0
+../mesh/strategy/simple.h, 78, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/simple.h, 127, find_vertex_set, `ntried` = 2
+../mesh/strategy/simple.h, 128, find_vertex_set, `nflat` = 1
+../mesh/strategy/simple.h, 129, find_vertex_set, `noverlapping` = 0
+../mesh/strategy/simple.h, 130, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new simplex
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 1
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 2
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 3
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/simple.h, 77, find_vertex_set, `ix_p` = 3
+../mesh/strategy/simple.h, 78, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/simple.h, 127, find_vertex_set, `ntried` = 7
+../mesh/strategy/simple.h, 128, find_vertex_set, `nflat` = 4
+../mesh/strategy/simple.h, 129, find_vertex_set, `noverlapping` = 2
+../mesh/strategy/simple.h, 130, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new simplex
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 4
+../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 5
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/simple.h, 77, find_vertex_set, `ix_p` = 5
+../mesh/strategy/simple.h, 78, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/simple.h, 127, find_vertex_set, `ntried` = 9
+../mesh/strategy/simple.h, 128, find_vertex_set, `nflat` = 1
+../mesh/strategy/simple.h, 129, find_vertex_set, `noverlapping` = 7
+../mesh/strategy/simple.h, 130, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new simplex
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 6
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/simple.h, 77, find_vertex_set, `ix_p` = 6
+../mesh/strategy/simple.h, 78, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/simple.h, 127, find_vertex_set, `ntried` = 10
+../mesh/strategy/simple.h, 128, find_vertex_set, `nflat` = 2
+../mesh/strategy/simple.h, 129, find_vertex_set, `noverlapping` = 7
+../mesh/strategy/simple.h, 130, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new simplex
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 7
+../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
+../mesh/strategy/simple.h, 77, find_vertex_set, `ix_p` = 7
+../mesh/strategy/simple.h, 78, find_vertex_set, Seeking admissible subset... ...Found.
+../mesh/strategy/simple.h, 127, find_vertex_set, `ntried` = 20
+../mesh/strategy/simple.h, 128, find_vertex_set, `nflat` = 3
+../mesh/strategy/simple.h, 129, find_vertex_set, `noverlapping` = 16
+../mesh/strategy/simple.h, 130, find_vertex_set, `nduplicate` = 0
+../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
+../mesh/mesh_constructor.h, 176, adjoin, Creating new simplex
+../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
+../mesh/mesh_constructor.h, 92, construct, Relinking... ...Done.
+test_mesh.cpp, 76, execute, `i` = 0
+test_mesh.cpp, 77, execute, `m.simplexes[i]` =
+ matrix =
+    0           1           2           4
+  0.000000,   1.000000,   0.000000,   0.000000
+  0.000000,   0.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   1.000000
+ neighbor simplex index =
+  1,
+
+test_mesh.cpp, 76, execute, `i` = 1
+test_mesh.cpp, 77, execute, `m.simplexes[i]` =
+ matrix =
+    3           1           2           4
+  1.000000,   1.000000,   0.000000,   0.000000
+  1.000000,   0.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   0.000000,   1.000000
+ neighbor simplex index =
+  0, 2, 3,
+
+test_mesh.cpp, 76, execute, `i` = 2
+test_mesh.cpp, 77, execute, `m.simplexes[i]` =
+ matrix =
+    5           1           3           4
+  1.000000,   1.000000,   1.000000,   0.000000
+  0.000000,   0.000000,   1.000000,   0.000000
+  1.000000,   0.000000,   0.000000,   1.000000
+ neighbor simplex index =
+  1, 4,
+
+test_mesh.cpp, 76, execute, `i` = 3
+test_mesh.cpp, 77, execute, `m.simplexes[i]` =
+ matrix =
+    6           2           3           4
+  0.000000,   0.000000,   1.000000,   0.000000
+  1.000000,   1.000000,   1.000000,   0.000000
+  1.000000,   0.000000,   0.000000,   1.000000
+ neighbor simplex index =
+  1,
+
+test_mesh.cpp, 76, execute, `i` = 4
+test_mesh.cpp, 77, execute, `m.simplexes[i]` =
+ matrix =
+    7           3           4           5
+  1.000000,   1.000000,   0.000000,   1.000000
+  1.000000,   1.000000,   0.000000,   0.000000
+  1.000000,   0.000000,   1.000000,   1.000000
+ neighbor simplex index =
+  2,
+
+test_mesh.cpp, 80, execute, `m.simplexes.size()` = 5
+test_mesh.cpp, 82, execute, Interrogating mesh: unconnected points.
+test_mesh.cpp, 84, execute, `nunconnected_points` = 0
+test_mesh.cpp, 87, execute, Interrogating mesh: overlapping simplexes.
+test_mesh.cpp, 89, execute, `noverlapping_simplexes` = 0
+test_mesh.cpp, 92, execute, Interrogating mesh: partition points.
+test_mesh.cpp, 94, execute, `npartition_points` = 0
+test_mesh.cpp, 97, execute, Interrogating mesh: isolated simplexes.
+test_mesh.cpp, 99, execute, `nisolated_simplexes` = 0
+test_mesh.cpp, 102, execute, Interrogating mesh: degenerate simplexes.
+test_mesh.cpp, 104, execute, `ndegenerate_simplexes` = 0
+
+real    0m0.052s
+user    0m0.015s
+sys     0m0.000s
+
