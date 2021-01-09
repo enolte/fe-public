@@ -1,72 +1,74 @@
-test_mesh.cpp, 123, main
-test_mesh.cpp, 127, main, 2, 3 =======================================================
-test_mesh.cpp, 37, execute, `CD` = 2
-test_mesh.cpp, 38, execute, `ED` = 3
-test_mesh.cpp, 42, execute, Loading cube.
-test_mesh.cpp, 44, execute, `points.size()` = 4
-test_mesh.cpp, 69, execute, Constructing mesh.
-../mesh/mesh_constructor.h, 36, mesh_constructor, `m_strategy.name` = simple
-../mesh/mesh_constructor.h, 86, construct
-../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 0
-../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
-../mesh/strategy/simple.h, 77, find_vertex_set, `ix_p` = 0
-../mesh/strategy/simple.h, 78, find_vertex_set, Seeking admissible subset... ...Found.
-../mesh/strategy/simple.h, 127, find_vertex_set, `ntried` = 1
-../mesh/strategy/simple.h, 128, find_vertex_set, `nflat` = 0
-../mesh/strategy/simple.h, 129, find_vertex_set, `noverlapping` = 0
-../mesh/strategy/simple.h, 130, find_vertex_set, `nduplicate` = 0
-../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
-../mesh/mesh_constructor.h, 176, adjoin, Creating new simplex
-../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
-../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 1
-../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
-../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 2
-../mesh/mesh_constructor.h, 158, adjoin,  already a vertex
-../mesh/mesh_constructor.h, 145, adjoin, `ix_p` = 3
-../mesh/mesh_constructor.h, 166, adjoin, Seeking vertex set...
-../mesh/strategy/simple.h, 77, find_vertex_set, `ix_p` = 3
-../mesh/strategy/simple.h, 78, find_vertex_set, Seeking admissible subset... ...Found.
-../mesh/strategy/simple.h, 127, find_vertex_set, `ntried` = 3
-../mesh/strategy/simple.h, 128, find_vertex_set, `nflat` = 0
-../mesh/strategy/simple.h, 129, find_vertex_set, `noverlapping` = 2
-../mesh/strategy/simple.h, 130, find_vertex_set, `nduplicate` = 0
-../mesh/mesh_constructor.h, 175, adjoin,  ...Found.
-../mesh/mesh_constructor.h, 176, adjoin, Creating new simplex
-../mesh/mesh_constructor.h, 180, adjoin, Partitioning... ...Done.
-../mesh/mesh_constructor.h, 92, construct, Relinking... ...Done.
-test_mesh.cpp, 76, execute, `i` = 0
-test_mesh.cpp, 77, execute, `m.simplexes[i]` =
- matrix =
-    0           1           2
-  0.000000,   1.000000,   0.000000
-  0.000000,   0.000000,   1.000000
-  0.000000,   0.000000,   0.000000
+mesh/mesh_test.h, 52, execute, `SD` = 2
+mesh/mesh_test.h, 53, execute, `ED` = 3
+mesh/mesh_test.h, 57, execute, `mesh::point_tolerance` = 8.88178e-16
+mesh/mesh_test.h, 58, execute, `fe::rank_tolerance(mesh{})` = 1.77636e-15
+mesh/mesh_test.h, 59, execute, `fe::span_tolerance(mesh{})` = 2.22045e-16
+mesh/mesh_test.h, 60, execute, `fe::cone_tolerance(mesh{})` = 1.77636e-15
+mesh/mesh_test.h, 61, execute, `fe::boundary_tolerance(mesh{})` = 8.88178e-16
+mesh/mesh_test.h, 63, execute, Loading cube.
+mesh/mesh_test.h, 65, execute, `points.size()` = 4
+mesh/mesh_test.h, 86, execute, Constructing mesh.
+mesh_constructor.h, 42, mesh_constructor, `m_strategy.name` = simple
+mesh_constructor.h, 83, construct
+mesh_constructor.h, 113, adjoin, `ix_p` = 0
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 1
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 0
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 0
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 1
+mesh_constructor_step0.h, 43, _step0, already a vertex
+mesh_constructor.h, 113, adjoin, `ix_p` = 2
+mesh_constructor_step0.h, 43, _step0, already a vertex
+mesh_constructor.h, 113, adjoin, `ix_p` = 3
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 3
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 0
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 2
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 89, construct, Relinking... ...Done.
+mesh/mesh_test.h, 100, execute, `m.simplices[i]` =
+[0] matrix =
+      0             1             2
+    0.000000,     1.000000,     0.000000
+    0.000000,     0.000000,     1.000000
+    0.000000,     0.000000,     0.000000
+
  neighbor simplex index =
-  1,
+  1
+mesh/mesh_test.h, 100, execute, `m.simplices[i]` =
+[1] matrix =
+      3             1             2
+    1.000000,     1.000000,     0.000000
+    1.000000,     0.000000,     1.000000
+    0.000000,     0.000000,     0.000000
 
-test_mesh.cpp, 76, execute, `i` = 1
-test_mesh.cpp, 77, execute, `m.simplexes[i]` =
- matrix =
-    3           1           2
-  1.000000,   1.000000,   0.000000
-  1.000000,   0.000000,   1.000000
-  0.000000,   0.000000,   0.000000
  neighbor simplex index =
-  0,
+  0
+mesh/mesh_test.h, 118, execute, `map{m.neighbors}` =
+<0, 1> : 2
 
-test_mesh.cpp, 80, execute, `m.simplexes.size()` = 2
-test_mesh.cpp, 82, execute, Interrogating mesh: unconnected points.
-test_mesh.cpp, 84, execute, `nunconnected_points` = 0
-test_mesh.cpp, 87, execute, Interrogating mesh: overlapping simplexes.
-test_mesh.cpp, 89, execute, `noverlapping_simplexes` = 0
-test_mesh.cpp, 92, execute, Interrogating mesh: partition points.
-test_mesh.cpp, 94, execute, `npartition_points` = 0
-test_mesh.cpp, 97, execute, Interrogating mesh: isolated simplexes.
-test_mesh.cpp, 99, execute, `nisolated_simplexes` = 0
-test_mesh.cpp, 102, execute, Interrogating mesh: degenerate simplexes.
-test_mesh.cpp, 104, execute, `ndegenerate_simplexes` = 0
-
-real    0m0.042s
-user    0m0.015s
-sys     0m0.031s
-
+mesh/mesh_test.h, 120, execute, `m.simplices.size()` = 2
+mesh/mesh_test.h, 126, execute, Interrogating mesh: unconnected points.
+mesh/mesh_test.h, 129, execute, `nunconnected_points` = 0
+mesh/mesh_test.h, 132, execute, Interrogating mesh: duplicate simplices.
+mesh/mesh_test.h, 134, execute, `nduplicate_simplices` = 0
+mesh/mesh_test.h, 137, execute, Interrogating mesh: overlapping simplices.
+mesh/mesh_test.h, 139, execute, `noverlapping_simplices` = 0
+mesh/mesh_test.h, 142, execute, Interrogating mesh: partition points.
+mesh/mesh_test.h, 144, execute, `npartition_points` = 0
+mesh/mesh_test.h, 147, execute, Interrogating mesh: isolated simplices.
+mesh/mesh_test.h, 149, execute, `nisolated_simplices` = 0
+mesh/mesh_test.h, 152, execute, Interrogating mesh: degenerate simplices.
+mesh/mesh_test.h, 154, execute, `ndegenerate_simplices` = 0
+mesh/mesh_test.h, 157, execute, `construction_duration_ns.count()` = 0
