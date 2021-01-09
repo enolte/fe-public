@@ -8,7 +8,7 @@ Tested with:
 
   * GNU g++ 9.2.1 (64-bit) Ubuntu
   * GNU g++ 9.1.0 (64-bit) Windows 7
-  * GNU g++ 8.1.0 (32-bit) Windows 7
+  * ~~GNU g++ 8.1.0 (32-bit) Windows 7~~ (*no longer supported*)
   * ~~GNU g++ 7.3.0 (64-bit) Ubuntu~~ (*no longer supported*)
 
 Mesh construction test results with full algorithm log outputs are in directory `./test`.
@@ -97,5 +97,3 @@ Mesh construction test results with full algorithm log outputs are in directory 
      14     14    proximity    16384                 8192        59m10.577s                   15
 
 ```
-
-Contact: eric dot alan dot nolte at gee mail dot com
