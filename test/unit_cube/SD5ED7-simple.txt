@@ -1,0 +1,1021 @@
+mesh_test.h, 74, write_header, `SD` = 5
+mesh_test.h, 75, write_header, `ED` = 7
+mesh_test.h, 76, write_header, `mesh::point_tolerance` = 8.88178e-16
+mesh_test.h, 77, write_header, `fe::rank_tolerance(mesh{})` = 1.77636e-15
+mesh_test.h, 78, write_header, `fe::span_tolerance(mesh{})` = 2.22045e-16
+mesh_test.h, 79, write_header, `fe::cone_tolerance(mesh{})` = 1.77636e-15
+mesh_test.h, 80, write_header, `fe::boundary_tolerance(mesh{})` = 8.88178e-16
+mesh_test.h, 55, execute, Loading unit cube.
+mesh_test.h, 60, execute, `points.size()` = 32
+mesh_test.h, 86, execute, Constructing mesh.
+mesh_constructor.h, 42, mesh_constructor, `m_strategy.name` = simple
+mesh_constructor.h, 83, construct
+mesh_constructor.h, 113, adjoin, `ix_p` = 0
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 3040
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 3039
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 0
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 1
+mesh_constructor_step0.h, 43, _step0, already a vertex
+mesh_constructor.h, 113, adjoin, `ix_p` = 2
+mesh_constructor_step0.h, 43, _step0, already a vertex
+mesh_constructor.h, 113, adjoin, `ix_p` = 3
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 3045
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 3042
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 2
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 4
+mesh_constructor_step0.h, 43, _step0, already a vertex
+mesh_constructor.h, 113, adjoin, `ix_p` = 5
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 4447
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 4439
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 7
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 6
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 4448
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 4440
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 7
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 7
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 4458
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 4441
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 16
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 8
+mesh_constructor_step0.h, 43, _step0, already a vertex
+mesh_constructor.h, 113, adjoin, `ix_p` = 9
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 4437
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 4379
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 57
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 10
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 4464
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 4390
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 73
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 11
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 4382
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 4370
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 11
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 12
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 4403
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 4374
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 28
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 13
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 4494
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 4396
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 97
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 14
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 4492
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 4396
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 95
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 15
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 4393
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 4373
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 19
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 16
+mesh_constructor_step0.h, 43, _step0, already a vertex
+mesh_constructor.h, 113, adjoin, `ix_p` = 17
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 125
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 67
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 57
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 18
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 1781
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 557
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 1223
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 19
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 125
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 67
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 57
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 20
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 91
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 62
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 28
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 21
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 125
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 67
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 57
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 22
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 125
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 67
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 57
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 23
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 61
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 57
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 3
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 24
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 125
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 67
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 57
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 25
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 547
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 186
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 360
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 26
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 348
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 126
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 221
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 27
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 125
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 67
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 57
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 28
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 656
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 226
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 429
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 29
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 61
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 57
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 3
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 30
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 81
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 61
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 19
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 113, adjoin, `ix_p` = 31
+mesh_constructor_step1.h, 48, _step1, Seeking partitions of simplices at entry by the new point... no partition of a simplex at entry found.
+mesh_constructor_step2.h, 40, _step2, Seeking vertex set...
+strategy/simple.h, 92, find_vertex_set, `counts.ntried` = 70
+strategy/simple.h, 93, find_vertex_set, `counts.nflat` = 58
+strategy/simple.h, 94, find_vertex_set, `counts.noverlapping` = 11
+strategy/simple.h, 95, find_vertex_set, `counts.nduplicate` = 0
+mesh_constructor_step2.h, 50, _step2, found. Created new simplex candidate
+mesh_constructor_step3.h, 43, _step3, Seeking partition of the new simplex by the point set at entry... no partition found.
+mesh_constructor.h, 144, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 147, adjoin, Done.
+mesh_constructor.h, 89, construct, Relinking... ...Done.
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[0] matrix (7 x 6)=
+      0             1             2             4             8             16
+    0.000000,     1.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     1.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     1.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     1.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+  1
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[1] matrix (7 x 6)=
+      3             1             2             4             8             16
+    1.000000,     1.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    1.000000,     0.000000,     1.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     1.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     1.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+  0, 2, 3, 18, 24
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[2] matrix (7 x 6)=
+      5             1             3             4             8             16
+    1.000000,     1.000000,     1.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     1.000000,     0.000000,     0.000000,     0.000000
+    1.000000,     0.000000,     0.000000,     1.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     1.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+  1, 4, 7, 26
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[3] matrix (7 x 6)=
+      6             2             3             4             8             16
+    0.000000,     0.000000,     1.000000,     0.000000,     0.000000,     0.000000
+    1.000000,     1.000000,     1.000000,     0.000000,     0.000000,     0.000000
+    1.000000,     0.000000,     0.000000,     1.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     1.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+  1, 6, 11, 25
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[4] matrix (7 x 6)=
+      7             3             4             5             8             16
+    1.000000,     1.000000,     0.000000,     1.000000,     0.000000,     0.000000
+    1.000000,     1.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    1.000000,     0.000000,     1.000000,     1.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     1.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+  2
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[5] matrix (7 x 6)=
+      9             3             5             6             7             16
+    1.000000,     1.000000,     1.000000,     0.000000,     1.000000,     0.000000
+    0.000000,     1.000000,     0.000000,     1.000000,     1.000000,     0.000000
+    0.000000,     0.000000,     1.000000,     1.000000,     1.000000,     0.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[6] matrix (7 x 6)=
+      10            2             3             6             8             16
+    0.000000,     0.000000,     1.000000,     0.000000,     0.000000,     0.000000
+    1.000000,     1.000000,     1.000000,     1.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     1.000000,     0.000000,     0.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     1.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+  3, 21
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[7] matrix (7 x 6)=
+      11            1             3             4             5             16
+    1.000000,     1.000000,     1.000000,     0.000000,     1.000000,     0.000000
+    1.000000,     0.000000,     1.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     1.000000,     1.000000,     0.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+  2
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[8] matrix (7 x 6)=
+      12            3             4             5             6             16
+    0.000000,     1.000000,     0.000000,     1.000000,     0.000000,     0.000000
+    0.000000,     1.000000,     0.000000,     0.000000,     1.000000,     0.000000
+    1.000000,     0.000000,     1.000000,     1.000000,     1.000000,     0.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[9] matrix (7 x 6)=
+      13            5             6             7             8             16
+    1.000000,     1.000000,     0.000000,     1.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     1.000000,     1.000000,     0.000000,     0.000000
+    1.000000,     1.000000,     1.000000,     1.000000,     0.000000,     0.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     1.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[10] matrix (7 x 6)=
+      14            3             6             7             8             16
+    0.000000,     1.000000,     0.000000,     1.000000,     0.000000,     0.000000
+    1.000000,     1.000000,     1.000000,     1.000000,     0.000000,     0.000000
+    1.000000,     0.000000,     1.000000,     1.000000,     0.000000,     0.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     1.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[11] matrix (7 x 6)=
+      15            2             3             4             6             16
+    1.000000,     0.000000,     1.000000,     0.000000,     0.000000,     0.000000
+    1.000000,     1.000000,     1.000000,     0.000000,     1.000000,     0.000000
+    1.000000,     0.000000,     0.000000,     1.000000,     1.000000,     0.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+  3
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[12] matrix (7 x 6)=
+      17            3             5             6             7             8
+    1.000000,     1.000000,     1.000000,     0.000000,     1.000000,     0.000000
+    0.000000,     1.000000,     0.000000,     1.000000,     1.000000,     0.000000
+    0.000000,     0.000000,     1.000000,     1.000000,     1.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+  14, 16, 17, 19, 22
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[13] matrix (7 x 6)=
+      18            7             9             10            11            13
+    0.000000,     1.000000,     1.000000,     0.000000,     1.000000,     1.000000
+    1.000000,     1.000000,     0.000000,     1.000000,     1.000000,     0.000000
+    0.000000,     1.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    0.000000,     0.000000,     1.000000,     1.000000,     1.000000,     1.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[14] matrix (7 x 6)=
+      19            3             5             6             7             8
+    1.000000,     1.000000,     1.000000,     0.000000,     1.000000,     0.000000
+    1.000000,     1.000000,     0.000000,     1.000000,     1.000000,     0.000000
+    0.000000,     0.000000,     1.000000,     1.000000,     1.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+  12, 16, 17, 19, 22
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[15] matrix (7 x 6)=
+      20            3             4             5             6             8
+    0.000000,     1.000000,     0.000000,     1.000000,     0.000000,     0.000000
+    0.000000,     1.000000,     0.000000,     0.000000,     1.000000,     0.000000
+    1.000000,     0.000000,     1.000000,     1.000000,     1.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[16] matrix (7 x 6)=
+      21            3             5             6             7             8
+    1.000000,     1.000000,     1.000000,     0.000000,     1.000000,     0.000000
+    0.000000,     1.000000,     0.000000,     1.000000,     1.000000,     0.000000
+    1.000000,     0.000000,     1.000000,     1.000000,     1.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+  12, 14, 17, 19, 22
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[17] matrix (7 x 6)=
+      22            3             5             6             7             8
+    0.000000,     1.000000,     1.000000,     0.000000,     1.000000,     0.000000
+    1.000000,     1.000000,     0.000000,     1.000000,     1.000000,     0.000000
+    1.000000,     0.000000,     1.000000,     1.000000,     1.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+  12, 14, 16, 19, 22
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[18] matrix (7 x 6)=
+      23            1             2             3             4             8
+    1.000000,     1.000000,     0.000000,     1.000000,     0.000000,     0.000000
+    1.000000,     0.000000,     1.000000,     1.000000,     0.000000,     0.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     1.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+  1, 24
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[19] matrix (7 x 6)=
+      24            3             5             6             7             8
+    0.000000,     1.000000,     1.000000,     0.000000,     1.000000,     0.000000
+    0.000000,     1.000000,     0.000000,     1.000000,     1.000000,     0.000000
+    0.000000,     0.000000,     1.000000,     1.000000,     1.000000,     0.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+  12, 14, 16, 17, 22
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[20] matrix (7 x 6)=
+      25            1             3             5             8             11
+    1.000000,     1.000000,     1.000000,     1.000000,     0.000000,     1.000000
+    0.000000,     0.000000,     1.000000,     0.000000,     0.000000,     1.000000
+    0.000000,     0.000000,     0.000000,     1.000000,     0.000000,     0.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     1.000000,     1.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[21] matrix (7 x 6)=
+      26            2             3             6             8             10
+    0.000000,     0.000000,     1.000000,     0.000000,     0.000000,     0.000000
+    1.000000,     1.000000,     1.000000,     1.000000,     0.000000,     1.000000
+    0.000000,     0.000000,     0.000000,     1.000000,     0.000000,     0.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     1.000000,     1.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+  6
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[22] matrix (7 x 6)=
+      27            3             5             6             7             8
+    1.000000,     1.000000,     1.000000,     0.000000,     1.000000,     0.000000
+    1.000000,     1.000000,     0.000000,     1.000000,     1.000000,     0.000000
+    0.000000,     0.000000,     1.000000,     1.000000,     1.000000,     0.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+  12, 14, 16, 17, 19
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[23] matrix (7 x 6)=
+      28            1             5             8             9             11
+    0.000000,     1.000000,     1.000000,     0.000000,     1.000000,     1.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    1.000000,     0.000000,     1.000000,     0.000000,     0.000000,     0.000000
+    1.000000,     0.000000,     0.000000,     1.000000,     1.000000,     1.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[24] matrix (7 x 6)=
+      29            1             2             3             4             8
+    1.000000,     1.000000,     0.000000,     1.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     1.000000,     1.000000,     0.000000,     0.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     1.000000,     0.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+  1, 18
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[25] matrix (7 x 6)=
+      30            2             3             4             6             8
+    0.000000,     0.000000,     1.000000,     0.000000,     0.000000,     0.000000
+    1.000000,     1.000000,     1.000000,     0.000000,     1.000000,     0.000000
+    1.000000,     0.000000,     0.000000,     1.000000,     1.000000,     0.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+  3
+mesh_test.h, 118, write_mesh, `m.simplices[i]` =
+[26] matrix (7 x 6)=
+      31            1             3             4             5             8
+    1.000000,     1.000000,     1.000000,     0.000000,     1.000000,     0.000000
+    1.000000,     0.000000,     1.000000,     0.000000,     0.000000,     0.000000
+    1.000000,     0.000000,     0.000000,     1.000000,     1.000000,     0.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     0.000000,     1.000000
+    1.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+    0.000000,     0.000000,     0.000000,     0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+  2
+mesh_test.h, 111, write_neighbors, `map{m.neighbors}` =
+<0, 1> : 5
+<0, 2> : 4
+<0, 3> : 4
+<0, 4> : 3
+<0, 5> : 1
+<0, 6> : 3
+<0, 7> : 3
+<0, 8> : 2
+<0, 9> : 2
+<0, 10> : 2
+<0, 11> : 3
+<0, 12> : 1
+<0, 14> : 1
+<0, 15> : 2
+<0, 16> : 1
+<0, 17> : 1
+<0, 18> : 4
+<0, 19> : 1
+<0, 20> : 2
+<0, 21> : 2
+<0, 22> : 1
+<0, 23> : 2
+<0, 24> : 4
+<0, 25> : 3
+<0, 26> : 3
+<1, 2> : 5
+<1, 3> : 5
+<1, 4> : 4
+<1, 5> : 2
+<1, 6> : 4
+<1, 7> : 4
+<1, 8> : 3
+<1, 9> : 2
+<1, 10> : 3
+<1, 11> : 4
+<1, 12> : 2
+<1, 14> : 2
+<1, 15> : 3
+<1, 16> : 2
+<1, 17> : 2
+<1, 18> : 5
+<1, 19> : 2
+<1, 20> : 3
+<1, 21> : 3
+<1, 22> : 2
+<1, 23> : 2
+<1, 24> : 5
+<1, 25> : 4
+<1, 26> : 4
+<2, 3> : 4
+<2, 4> : 5
+<2, 5> : 3
+<2, 6> : 3
+<2, 7> : 5
+<2, 8> : 4
+<2, 9> : 3
+<2, 10> : 3
+<2, 11> : 3
+<2, 12> : 3
+<2, 14> : 3
+<2, 15> : 4
+<2, 16> : 3
+<2, 17> : 3
+<2, 18> : 4
+<2, 19> : 3
+<2, 20> : 4
+<2, 21> : 2
+<2, 22> : 3
+<2, 23> : 3
+<2, 24> : 4
+<2, 25> : 3
+<2, 26> : 5
+<3, 4> : 4
+<3, 5> : 3
+<3, 6> : 5
+<3, 7> : 3
+<3, 8> : 4
+<3, 9> : 3
+<3, 10> : 4
+<3, 11> : 5
+<3, 12> : 3
+<3, 14> : 3
+<3, 15> : 4
+<3, 16> : 3
+<3, 17> : 3
+<3, 18> : 4
+<3, 19> : 3
+<3, 20> : 2
+<3, 21> : 4
+<3, 22> : 3
+<3, 23> : 1
+<3, 24> : 4
+<3, 25> : 5
+<3, 26> : 3
+<4, 5> : 4
+<4, 6> : 3
+<4, 7> : 4
+<4, 8> : 4
+<4, 9> : 4
+<4, 10> : 4
+<4, 11> : 3
+<4, 12> : 4
+<4, 13> : 1
+<4, 14> : 4
+<4, 15> : 4
+<4, 16> : 4
+<4, 17> : 4
+<4, 18> : 3
+<4, 19> : 4
+<4, 20> : 3
+<4, 21> : 2
+<4, 22> : 4
+<4, 23> : 2
+<4, 24> : 3
+<4, 25> : 3
+<4, 26> : 4
+<5, 6> : 3
+<5, 7> : 3
+<5, 8> : 4
+<5, 9> : 4
+<5, 10> : 4
+<5, 11> : 3
+<5, 12> : 4
+<5, 13> : 2
+<5, 14> : 4
+<5, 15> : 3
+<5, 16> : 4
+<5, 17> : 4
+<5, 18> : 1
+<5, 19> : 4
+<5, 20> : 2
+<5, 21> : 2
+<5, 22> : 4
+<5, 23> : 2
+<5, 24> : 1
+<5, 25> : 2
+<5, 26> : 2
+<6, 7> : 2
+<6, 8> : 3
+<6, 9> : 3
+<6, 10> : 4
+<6, 11> : 4
+<6, 12> : 3
+<6, 13> : 1
+<6, 14> : 3
+<6, 15> : 3
+<6, 16> : 3
+<6, 17> : 3
+<6, 18> : 3
+<6, 19> : 3
+<6, 20> : 2
+<6, 21> : 5
+<6, 22> : 3
+<6, 23> : 1
+<6, 24> : 3
+<6, 25> : 4
+<6, 26> : 2
+<7, 8> : 4
+<7, 9> : 2
+<7, 10> : 2
+<7, 11> : 3
+<7, 12> : 2
+<7, 13> : 1
+<7, 14> : 2
+<7, 15> : 3
+<7, 16> : 2
+<7, 17> : 2
+<7, 18> : 3
+<7, 19> : 2
+<7, 20> : 4
+<7, 21> : 1
+<7, 22> : 2
+<7, 23> : 3
+<7, 24> : 3
+<7, 25> : 2
+<7, 26> : 4
+<8, 9> : 3
+<8, 10> : 3
+<8, 11> : 4
+<8, 12> : 3
+<8, 14> : 3
+<8, 15> : 4
+<8, 16> : 3
+<8, 17> : 3
+<8, 18> : 2
+<8, 19> : 3
+<8, 20> : 2
+<8, 21> : 2
+<8, 22> : 3
+<8, 23> : 1
+<8, 24> : 2
+<8, 25> : 3
+<8, 26> : 3
+<9, 10> : 4
+<9, 11> : 2
+<9, 12> : 4
+<9, 13> : 2
+<9, 14> : 4
+<9, 15> : 3
+<9, 16> : 4
+<9, 17> : 4
+<9, 18> : 1
+<9, 19> : 4
+<9, 20> : 2
+<9, 21> : 2
+<9, 22> : 4
+<9, 23> : 2
+<9, 24> : 1
+<9, 25> : 2
+<9, 26> : 2
+<10, 11> : 3
+<10, 12> : 4
+<10, 13> : 1
+<10, 14> : 4
+<10, 15> : 3
+<10, 16> : 4
+<10, 17> : 4
+<10, 18> : 2
+<10, 19> : 4
+<10, 20> : 2
+<10, 21> : 3
+<10, 22> : 4
+<10, 23> : 1
+<10, 24> : 2
+<10, 25> : 3
+<10, 26> : 2
+<11, 12> : 2
+<11, 14> : 2
+<11, 15> : 3
+<11, 16> : 2
+<11, 17> : 2
+<11, 18> : 3
+<11, 19> : 2
+<11, 20> : 1
+<11, 21> : 3
+<11, 22> : 2
+<11, 24> : 3
+<11, 25> : 4
+<11, 26> : 2
+<12, 13> : 1
+<12, 14> : 5
+<12, 15> : 4
+<12, 16> : 5
+<12, 17> : 5
+<12, 18> : 2
+<12, 19> : 5
+<12, 20> : 3
+<12, 21> : 3
+<12, 22> : 5
+<12, 23> : 2
+<12, 24> : 2
+<12, 25> : 3
+<12, 26> : 3
+<13, 14> : 1
+<13, 16> : 1
+<13, 17> : 1
+<13, 19> : 1
+<13, 20> : 1
+<13, 21> : 1
+<13, 22> : 1
+<13, 23> : 2
+<14, 15> : 4
+<14, 16> : 5
+<14, 17> : 5
+<14, 18> : 2
+<14, 19> : 5
+<14, 20> : 3
+<14, 21> : 3
+<14, 22> : 5
+<14, 23> : 2
+<14, 24> : 2
+<14, 25> : 3
+<14, 26> : 3
+<15, 16> : 4
+<15, 17> : 4
+<15, 18> : 3
+<15, 19> : 4
+<15, 20> : 3
+<15, 21> : 3
+<15, 22> : 4
+<15, 23> : 2
+<15, 24> : 3
+<15, 25> : 4
+<15, 26> : 4
+<16, 17> : 5
+<16, 18> : 2
+<16, 19> : 5
+<16, 20> : 3
+<16, 21> : 3
+<16, 22> : 5
+<16, 23> : 2
+<16, 24> : 2
+<16, 25> : 3
+<16, 26> : 3
+<17, 18> : 2
+<17, 19> : 5
+<17, 20> : 3
+<17, 21> : 3
+<17, 22> : 5
+<17, 23> : 2
+<17, 24> : 2
+<17, 25> : 3
+<17, 26> : 3
+<18, 19> : 2
+<18, 20> : 3
+<18, 21> : 3
+<18, 22> : 2
+<18, 23> : 2
+<18, 24> : 5
+<18, 25> : 4
+<18, 26> : 4
+<19, 20> : 3
+<19, 21> : 3
+<19, 22> : 5
+<19, 23> : 2
+<19, 24> : 2
+<19, 25> : 3
+<19, 26> : 3
+<20, 21> : 2
+<20, 22> : 3
+<20, 23> : 4
+<20, 24> : 3
+<20, 25> : 2
+<20, 26> : 4
+<21, 22> : 3
+<21, 23> : 1
+<21, 24> : 3
+<21, 25> : 4
+<21, 26> : 2
+<22, 23> : 2
+<22, 24> : 2
+<22, 25> : 3
+<22, 26> : 3
+<23, 24> : 2
+<23, 25> : 1
+<23, 26> : 3
+<24, 25> : 4
+<24, 26> : 4
+<25, 26> : 3
+
+mesh_test.h, 102, execute, `m.nsimplices()` = 27
+verification.h, 30, verify, Interrogating mesh:
+verification.h, 33, verify, `nunconnected_points` = 0
+verification.h, 38, verify, `nduplicate_simplices` = 0
+verification.h, 43, verify, `noverlapping_simplices` = 0
+verification.h, 48, verify, `npartition_points` = 0
+verification.h, 53, verify, `nisolated_simplices` = 0
+verification.h, 58, verify, `ndegenerate_simplices` = 0
+mesh_test.h, 106, execute, `construction_duration_ns.count()` = 40001200
