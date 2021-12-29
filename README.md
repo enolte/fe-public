@@ -40,12 +40,13 @@ Older compilers are not supported.
 ### *m*-sphere
 
 * co-spherical grid points (*pending*)
-* apherical shell (*pending*)
+* spherical shell (*pending*)
 * nested m-spheres (*pending*)
 * two intersecting m-cubes (*pending*)
 
 
 ### random point cloud
 
-* constrained m-angle
-* constrained norm
+* constrained m-angle (*pending*)
+* constrained point distance (*pending*)
+* constrained simplex measure (*pending*)
