@@ -22,20 +22,33 @@ Older compilers are not supported.
 
 #### *proximity*
 
-* proximity-sorted search (*n*-dimensional partial "z-order" search)
+* proximity-sorted search (*n*-dimensional partial proximity-sorted search)
 * opportunistic first match
 * no additional simplex binding
 * no data assumptions
 
-
 ## Test cases
 
-### *m*-cube
+Some test cases organized by geometric selection of input points. For the below,
 
-* [vertices](./test/unit_cube)
-* Nested m-cubes (*pending*)
-* m-cubic lattice (*pending*)
+* *k* = simplex dimension
+* *m* = cube dimension
+
+Various embedding dimension values (*n*) are tested.
+
+### *m*-cube vertices, case *k* = *m*
+
+* [unit cube](./test/unit_cube)
+* nested m-cubes (*pending*)
 * two intersecting m-cubes (*pending*)
+* m-cubic lattice (*pending*)
+
+### *m*-cube vertices, case *k* < *m*
+
+* unit cube (*pending*)
+* nested m-cubes (*pending*)
+* two intersecting m-cubes (*pending*)
+* m-cubic lattice (*pending*)
 
 ### *m*-sphere
 
@@ -45,7 +58,7 @@ Older compilers are not supported.
 * two intersecting m-cubes (*pending*)
 
 
-### random point cloud
+### random n-dimensional point cloud
 
 * constrained m-angle (*pending*)
 * constrained point distance (*pending*)
