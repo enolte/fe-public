@@ -1,0 +1,52 @@
+mesh_test.h, 80, write_header, `SD` = 2
+mesh_test.h, 81, write_header, `ED` = 3
+mesh_test.h, 82, write_header, `strategy_name` = simple
+mesh_test.h, 83, write_header, `fe::HP{fe::point_tolerance(mesh{})}` = +8.8817841970012523233890533447265625e-16 = +0x1p-50
+mesh_test.h, 84, write_header, `fe::HP{fe::rank_tolerance(mesh{})}` = +1.7763568394002504646778106689453125e-15 = +0x1p-49
+mesh_test.h, 85, write_header, `fe::HP{fe::span_tolerance(mesh{})}` = +2.220446049250313080847263336181640625e-16 = +0x1p-52
+mesh_test.h, 86, write_header, `fe::HP{fe::cone_tolerance(mesh{})}` = +1.7763568394002504646778106689453125e-15 = +0x1p-49
+mesh_test.h, 87, write_header, `fe::HP{fe::boundary_tolerance(mesh{})}` = +8.8817841970012523233890533447265625e-16 = +0x1p-50
+mesh_test.h, 59, execute, Loading unit cube
+mesh_test.h, 66, execute, `points.size()` = 4
+mesh_test.h, 114, execute, Constructing mesh.
+mesh_constructor_step2.h, 24, _step2, `ix_p` = 0 : Seeking vertex set...
+strategy/simple.h, 94, find_vertex_set, `counts` = {ntried = 1, nflat = 0, noverlapping = 0}
+mesh_constructor_step2.h, 34, _step2, `candidate` = 0, 1, 2,  : Created new simplex candidate.
+mesh_constructor_step3.h, 24, _step3, Seeking partition of the candidate by the point set at entry... no partition found
+mesh_constructor.h, 218, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 221, adjoin, Done.
+mesh_constructor_step0.h, 33, _step0, `ix_p` = 1 : already a vertex
+mesh_constructor_step0.h, 33, _step0, `ix_p` = 2 : already a vertex
+mesh_constructor_step2.h, 24, _step2, `ix_p` = 3 : Seeking vertex set...
+strategy/simple.h, 94, find_vertex_set, `counts` = {ntried = 3, nflat = 0, noverlapping = 2}
+mesh_constructor_step2.h, 34, _step2, `candidate` = 3, 1, 2,  : Created new simplex candidate.
+mesh_constructor_step3.h, 24, _step3, Seeking partition of the candidate by the point set at entry... no partition found
+mesh_constructor.h, 218, adjoin, Saving new indivisible simplex.
+mesh_constructor.h, 221, adjoin, Done.
+mesh_test.h, 146, write_mesh, `m(i)` =
+[0] matrix (3 x 3)=
+      0             1             2
+    0.000000,     1.000000,     0.000000
+    0.000000,     0.000000,     1.000000
+    0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+  1
+mesh_test.h, 146, write_mesh, `m(i)` =
+[1] matrix (3 x 3)=
+      3             1             2
+    1.000000,     1.000000,     0.000000
+    1.000000,     0.000000,     1.000000
+    0.000000,     0.000000,     0.000000
+
+ neighbor simplex index =
+  0
+mesh_test.h, 139, write_neighbors, `map{m.neighbors}` =
+<0, 1> : 2
+
+mesh_test.h, 130, execute, `m.nsimplices()` = 2
+verification.h, 39, verify, `tasks.size()` = 90
+verification.h, 41, verify, Interrogating mesh:
+verification.h, 163, execute, Completed 90 tasks on 42 threads in 0 ns
+verification.h, 43, verify, Done. All tests passed.
+mesh_test.h, 134, execute, `construction_duration_ns.count()` = 10000000
