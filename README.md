@@ -29,10 +29,10 @@ Older compilers are not supported.
 
 ## Test cases
 
-Some test cases organized by geometric selection of input points. For the below,
+Test cases are organized by geometric selection of input points. For the below,
 
 * *k* = simplex dimension
-* *m* = cube dimension
+* *m* = capacity dimension of source region
 
 Various embedding dimension values (*n*) are tested.
 
