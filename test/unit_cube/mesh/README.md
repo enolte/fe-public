@@ -1,7 +1,6 @@
-
 # Vertices of the m-cube
 
-Subcase for *k* = simplex dimension = *m*
+Mesh construction tests. Subcase for *k* = simplex dimension = *m*
 
 ## Contents
 
@@ -21,7 +20,6 @@ Subcase for *k* = simplex dimension = *m*
 * *m* = cube spanning dimension = 5, 6, 7, 9, 11, 12, 13, 14, ..., as listed below
 * *k* = simplex dimension = *m*
 * *strategy* : one of *simple* or *proximity*
-
 
 ### Internal
 
